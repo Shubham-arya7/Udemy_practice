@@ -1,5 +1,7 @@
 package com.Execeptionalhandling.udemy;
 
+import static java.lang.System.out;
+
 class Amount {
 
 	private String currency;
@@ -36,7 +38,7 @@ public class ExceptionalhandlingLevel1 {
 		Amount amount2 = new Amount("USD", 100);
 
 		amount1.add(amount2);
-		System.out.println(amount1);
+		out.println(amount1);
 
 	}
 
